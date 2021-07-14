@@ -1,5 +1,7 @@
 "use strict";
 
+$(".pwstrength").pwstrength();
+
 $(window).on("load", function () {
   $(".loader").fadeOut("slow");
 });
